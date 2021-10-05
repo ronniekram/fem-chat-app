@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,500&display=swap');
+
+// Typography
+$font: 'Rubik';
+$bodyFont: '400 1rem Rubik, sans-serif';
+$headerFont: '500 2.5rem Rubik, sans-serif';
+$heavyPhoneFont: '700 .75rem Rubik, sans-serif';
+$lightPhoneFont: '400 .5rem Rubik, sans-serif';
+$phoneHeader: '500 .6875rem Rubik, sans-serif';
+
+
+// Palette
+
+// Text
+$heading: hsl(271, 36%, 24%);
+$subheading: hsl(276, 100%, 81%);
+$paragraph: hsl(270, 7%, 64%);
+$chatLeft: hsl(276, 55%, 52%);
+$chatRight: hsl(271, 15%, 43%);
+$placeholder: hsl(206, 6%, 79%);
+
+
+// Body
+$white: hsl(0, 0%, 100%);
+$backgroud: hsl(270, 20%, 96%);
+
+// Components
+$submitButton: hsl(271, 36%, 24%);
+$radioButton: hsl(289, 100%, 72%);
+
+// Gradient
+
+$gradient: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
