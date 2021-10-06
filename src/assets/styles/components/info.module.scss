@@ -4,9 +4,16 @@
   margin: auto;
   padding: 2rem;
   position: absolute;
-  z-index: 5;
   top: 36rem;
+  z-index: 5;
   letter-spacing: 0;
+
+  @include md {
+    padding: unset;
+    width: 40%;
+    top: 10rem;
+    left: 25rem;
+  }
 
   @include lg {
     padding: unset;
