@@ -6,7 +6,7 @@ const Photos = ({ images }) => {
   const renderImages = () => {
     return images.map(image => {
       return (
-        <img src={image} alt="Cute and happy little dog." />
+          <img src={image} alt="Cute and happy" />
       );
     });
   };

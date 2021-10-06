@@ -55,6 +55,10 @@ const Screen = () => {
         {renderChat()}
       </div>
 
+      <div>
+        <input />
+      </div>
+
     </div>
   );
 };
