@@ -5,6 +5,10 @@
 }
 
 body {
+  max-height: 100vh;
+  height: 100vh;
+  position: relative;
   margin: auto;
   font-family: $font;
+  background-color: $background;
 }

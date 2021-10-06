@@ -1,6 +1,36 @@
 @import './globals';
 
-.app {
-  min-height: 100vh;
-  height: 100vh;
+.darkPill {
+  position: absolute;
+  z-index: 0;
+  min-width: 510px;
+  min-height: 1018px;
+  background-image: $gradient;
+  border-radius: 15.9375rem;
+  left: -322px;
+  top: -509px;
+
+  @include lg {
+    left: -90px;
+    top: -318px;
+  }
+}
+
+
+.lightPill {
+  position: absolute;
+  z-index: 0;
+  min-width: 510px;
+  min-height: 1018px;
+  background-image: $gradient;
+  border-radius: 15.9375rem;
+  left: 50%;
+  top: 50%;
+  opacity: 0.03;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+
+  @include lg {
+    left: 82%;
+    top: 15%;
+  }
 }
