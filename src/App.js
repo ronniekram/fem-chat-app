@@ -1,4 +1,5 @@
 import React from 'react';
+import Phone from './components/phone/Phone';
 import styles from './assets/styles/app.module.scss';
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <>
       <div className={styles.darkPill}></div>
       <div className={styles.lightPill}></div>
+      <Phone />
     </>
   );
 };
