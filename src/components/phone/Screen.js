@@ -10,25 +10,40 @@ const Screen = () => {
 
   const conversation = [
     {
-      sender: "",
-      content: ""
+      sender: "walker",
+      content: "That sounds great. I'd be happy to discuss more.",
+      images: []
     },
     {
-      sender: "",
-      content: ""
+      sender: "walker",
+      content: "Could you send over some pictures of your dog, please?",
+      images: []
     },
     { // DOG PICS HERE
+      sender: "",
+      content: "",
       images: [dog1, dog2, dog3]
     },
     {
-      sender: "",
-      content: ""
+      sender: "customer",
+      content: "Here are a few pictures. She's a happy girl!",
+      images: []
     },
     {
-      sender: "",
-      content: ""
+      sender: "customer",
+      content: "Can you make it?",
+      images: []
+    },
+    {
+      sender: "walker",
+      content: "She looks so happy! The time we discussed works. How long shall I take her out for?",
+      images: []
     },
   ];
+
+  const renderChat = () => {
+    return conversation.map(text => <ChatBubble  sender={text.sender} content={text.content} images={text.images} />)
+  };
 
   return (
     <div className={styles.container}>
@@ -37,7 +52,7 @@ const Screen = () => {
       </div>
 
       <div className={styles.chat}>
-        
+        {renderChat()}
       </div>
 
     </div>

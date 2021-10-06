@@ -11,6 +11,8 @@ const ChatBubble = ({ sender, content, images }) => {
           {content}
         </div>
       );
+    } else if (sender === "" && content === "") {
+      return <Photos images={images} />
     } else {
       return (
         <div className={styles.customer}>
@@ -21,9 +23,9 @@ const ChatBubble = ({ sender, content, images }) => {
   };
 
   return (
-    <>
-    {renderTextBubble()}
-    </>
+    <div className={styles.chat}>
+      {renderTextBubble()}
+    </div>
   );
 };
 

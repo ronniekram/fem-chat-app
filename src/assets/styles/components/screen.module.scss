@@ -3,5 +3,11 @@
 .container {
   // background: $background;
   // border-radius: 0.8rem;
-  margin: 0.6875rem 0.5625;
+  margin: 0.6875rem 0.5625rem;
+
+  .chat {
+    background: $background;
+    max-height: 20%;
+    height: 20%;
+  }
 }
