@@ -1,5 +1,35 @@
 @import '../globals';
 
 .container {
+  margin: auto;
+  padding: 2rem;
+  position: absolute;
+  z-index: 5;
+  top: 36rem;
+  letter-spacing: 0;
 
+  @include lg {
+    padding: unset;
+    width: 30.1%;
+    top: 19.3125rem;
+    left: 45.9375rem;
+  }
+
+  h1 {
+    color: $heading;
+    font-weight: 500;
+    font-size: 2.5rem;
+  }
+
+  p {
+    color: $paragraph;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    text-align: center;
+
+    @include lg {
+      text-align: unset
+    }
+  }
 };
