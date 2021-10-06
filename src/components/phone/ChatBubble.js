@@ -1,6 +1,11 @@
 import React from 'react';
 
-const ChatBubble = () => {
+const ChatBubble = ({ sender }) => {
+
+  const renderTextBubble = () => {
+
+  };
+  
   return (
     <div>
       

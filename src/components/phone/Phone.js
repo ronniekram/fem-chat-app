@@ -12,4 +12,4 @@ const Phone = () => {
 
 export default Phone;
 
-// width: 247, height: 505
+// After Screen, textbox

@@ -5,7 +5,14 @@ import styles from '../../assets/styles/components/screen.module.scss';
 const Screen = () => {
   return (
     <div className={styles.container}>
-      <PhoneHeader />
+      <div>
+        <PhoneHeader />
+      </div>
+
+      <div>
+
+      </div>
+      
     </div>
   );
 };
