@@ -19,9 +19,38 @@
     justify-self: start;
     margin-left: -.75rem;
 
-    .radio {
-      margin: 0 .5rem 0 0;
-    }
+    // .radio {
+    //   margin: 0 .5rem 0 0;
+    // }
+
+    input[type='radio']:after {
+      width: .7rem;
+      height: .7rem;
+      border-radius: 50%;
+      top: 0px;
+      left: 0px;
+      position: relative;
+      background: $gradient;
+      content: '';
+      display: inline-block;
+      visibility: visible;
+      border: 1px solid $radioButton;
+      // transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  input[type='radio']:checked:after {
+      width: .7rem;
+      height: .7rem;
+      border-radius: 50%;
+      top: 0px;
+      left: 0px;
+      position: relative;
+      background: hsl(276, 100%, 81%);
+      content: '';
+      display: inline-block;
+      visibility: visible;
+      border: 1px solid $radioButton;
+  }
 
     .duration {
       margin: 0;
