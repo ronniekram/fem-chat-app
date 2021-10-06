@@ -18,7 +18,37 @@
     }
   }
 
-  // label {
+  button {
+    border: none;
+    border-radius: 1rem;
+    background: $submitButton;
 
-  // }
+    span {
+      color: $white;
+      box-sizing: border-box;
+      position: relative;
+      display: block;
+
+      width: 22px;
+      height: 22px;
+      border: 2px solid transparent;
+      border-radius: 100px
+    }
+
+    span::after {
+      color: $white;
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      border-bottom: 2.5px solid;
+      border-right: 2.5px solid;
+      border-radius: 3px;
+      transform: rotate(-45deg);
+      right: 6px;
+      top: 4px
+    }
+  }
 }

@@ -7,7 +7,6 @@ const Pricing = ({ duration, cost }) => {
       <div className={styles.left}>
         <div>
           <input type="radio" className={styles.radio} />
-        {/* <label className={styles.label}><span></span></label> */}
         </div>
 
         <p className={styles.duration}>{duration}</p>
