@@ -26,18 +26,12 @@
   }
 
   .infoBox {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
+    @include flex-row;
     padding-top: 0.75rem;
   }
 
   .info {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
+    @include flex-row;
     align-content: center;
     width: 70%;
   }

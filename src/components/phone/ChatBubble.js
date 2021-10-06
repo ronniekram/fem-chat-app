@@ -13,7 +13,9 @@ const ChatBubble = ({ sender, content, images }) => {
       );
     } else if (sender === "" && content === "") {
       return (
-        <Photos images={images} />
+        <div className={styles.photos}>
+          <Photos images={images} />
+        </div>
       )
     } else {
       return (

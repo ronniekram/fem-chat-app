@@ -1,1 +1,43 @@
 @import '../globals';
+
+.container {
+  @include flex-row;
+  align-content: center;
+  margin: .5rem;
+  padding: 0 1rem;
+  border-radius: 0.625rem 0.625rem 0.625rem .25rem;
+  background-image: $gradient;
+  color: $white;
+  line-height: 11px;
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.01);
+
+  .left {
+    width: 70%;
+    @include flex-row;
+    justify-content: flex-start !important;
+    align-content: center;
+    justify-self: start;
+    margin-left: -.75rem;
+
+    .radio {
+      width: .75rem;
+      height: .75rem;
+      margin: 0 .25rem;
+      border: 1px solid $radioButton;
+      background: transparent;
+      border-radius: 50%;
+      cursor: pointer;
+
+    }
+  
+    .duration {
+      margin: 0;
+      font-size: .5rem;
+    }
+  }
+
+  .cost {
+    font-size: .7rem;
+    font-weight: 700;
+  }
+}

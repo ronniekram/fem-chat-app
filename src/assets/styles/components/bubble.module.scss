@@ -11,10 +11,18 @@
   }
   
   .walker {
-    color: $chatRight;
+    color: $chatLeft;
     background: hsl(276, 41%, 93%);
     float: left;
     border-radius: 0.25rem 0.625rem 0.625rem 0.625rem;
+  }
+
+  .photos {
+    width: 60% !important;
+    padding: 0 !important;
+    margin: .5rem !important;
+    @include flex-row;
+    float: right;
   }
   
   .customer {
