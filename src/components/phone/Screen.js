@@ -2,6 +2,7 @@ import React from 'react';
 import PhoneHeader from './PhoneHeader';
 import ChatBubble from './ChatBubble';
 import Pricing from './Pricing';
+import TextBar from './TextBar';
 import dog1 from '../../assets/img/dog1.jpg';
 import dog2 from '../../assets/img/dog2.jpg';
 import dog3 from '../../assets/img/dog3.jpg';
@@ -59,6 +60,10 @@ const Screen = () => {
       <div className={styles.pricing}>
         <Pricing duration={'30 minute walk'} cost={'$29'} />
         <Pricing duration={'1 hour walk'} cost={'$49'}/>
+      </div>
+
+      <div>
+        <TextBar />
       </div>
 
     </div>

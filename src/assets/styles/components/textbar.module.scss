@@ -1,1 +1,19 @@
 @import '../globals';
+
+.container {
+  margin: .8rem .5rem .5rem .5rem;
+
+  input {
+    width: 100%;
+    padding: .65rem;
+    background: $white;
+    font-size: 0.5625rem;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: .5rem;
+  }
+
+  label {
+
+  }
+}

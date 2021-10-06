@@ -20,7 +20,7 @@
   .photos {
     width: 60% !important;
     padding: 0 !important;
-    margin: .5rem !important;
+    margin: .25rem .5rem !important;
     @include flex-row;
     float: right;
   }
