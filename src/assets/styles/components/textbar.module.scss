@@ -11,6 +11,11 @@
     border-radius: 1rem;
     border: none;
     margin-bottom: .5rem;
+
+    &::placeholder {
+      color: hsl(210, 7%, 79%);
+      letter-spacing: -0.07px;
+    }
   }
 
   label {
