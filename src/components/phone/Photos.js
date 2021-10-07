@@ -13,9 +13,6 @@ const Photos = ({ images }) => {
 
 
   return (
-    // <div className={styles.container}>
-    //   {renderImages()}
-    // </div>
     <>
       {renderImages()}
     </>
